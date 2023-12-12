@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+  body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+</style>
+</head>
+  <body style="text-align: center; background-color: #eec12ec5;">
+    <div style="text-align: left;" class="topnav">
+  <a href="/">Home</a>&nbsp&nbsp&nbsp&nbsp
+  <a class="active" href="/sign_up">Sign Up</a>&nbsp&nbsp&nbsp&nbsp
+  <a href="/ask_trip">Ask/Delete Trip</a>&nbsp&nbsp&nbsp&nbsp
+  <a href="/trips_info">Trips Info</a>&nbsp&nbsp&nbsp&nbsp
+	</div>
+    <h1>Utaxi</h1>
+    <h2>Sign Up</h2>
+    <div>
+      <form action="/sign_up" method="post">
+        <input style = "height: 30px; font-size: 17px;" name="username" type="text" placeholder="Username">
+        <br><br>
+        <span style = "height: 30px; font-size: 17px;"> Role:&nbsp</span>
+        <input name="role" type="radio" value="passenger" id="passenger">
+        <label for="passenger">Passenger&nbsp</label>
+        <input name="role" type="radio" id="driver" value="driver">
+        <label for="driver">Driver&nbsp</label>
+        <br><br>
+        <button style = "height: 30px; font-size: 17px;" type="submit" >Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>

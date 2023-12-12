@@ -1,0 +1,11 @@
+#define window_width 1300
+#define window_height 900
+#define spaceship_width 100
+#define spaceship_height 100
+#define hero_spaceship_speed 15
+#define walking_spaceship_speed 10
+#define bullet_speed 10
+#define bullet_width 20
+#define bullet_height 20
+#define counter_per_shot 30
+#define rounds_of_game 4
